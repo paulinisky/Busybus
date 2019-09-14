@@ -5,7 +5,7 @@
 body {
   background-color: #FFFFFF;
   font-family: Arial, sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   color: #000000;
 }
 
@@ -33,98 +33,100 @@ body {
   background-color: #EFF2F4;
 }
 
-.bus-routes {
-  border-bottom: 1px solid #000000;
-  border-left: 1px solid #000000;
-  border-right: 1px solid #000000;
-}
-
-ul {
-  padding-left: 0;
-  padding-right: 0;
+.route-data {
+  height: 72px;
+  width: 360px;
   box-sizing: border-box;
-  border-top: 1px solid #000000;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 1px solid #e0e0e0;
   margin: 0;
+  list-style: none;
 }
 
 .line {
-  width: 15%;
-  display: inline-block;
-  padding-left: 5px;
-  padding-right: 5px;
-  font-size: 1.9em;
+  width: 20%;
+  padding-right: 16px;
+  font-size: 2.5em;
   font-weight: 500;
   text-align: right;
+  float: left;
 }
 
 .destination {
-  width: 50%;
-  display: inline-block;
-  padding-left: 6px;
+  /* width: 50%; */
+  box-sizing: border-box;
+  line-height: 20px;
+  margin-left: 70px;
+  /* float: left; */
 }
 
 .time {
-  width: 25%;
-  display: inline-block;
+  /* width: 30%; */
   text-align: right;
   float: right;
-  padding-right: 5px;
+  line-height: 20px;
+  padding-top: 0px;
+  height: 50px;
 }
 
 .frequency {
-  font-size: .6em;
-  float: right;
-  display: inline-block;
-  border-top: none;
-  padding-top: 0;
+  font-size: .8em;
+  /* width: 25%; */
+  /* float: right; */
+  box-sizing: border-box;
+  color: #787878;
   list-style: none;
+  padding: 0px;
 }
 
 .service {
-  font-size: .6em;
-  display: block;
-  list-style: none;
+  font-size: .8em;
   border-top: none;
   color: #E02020;
-  padding-top: 0;
+  line-height: 20px;
+  list-style: none;
+  padding-left: 0px;
 }
 
-.direction {
-  font-size: .6em;
-  display: block;
-  list-style: none;
+.Northbound {
+  font-size: .8em;
   border-top: none;
   color: #1F72B1;
-  padding-top: 0;
+  line-height: 20px;
+  list-style: none;
+  padding-left: 0px;
 }
 
 .Eastbound {
-  font-size: .6em;
-  display: block;
-  list-style: none;
+  font-size: .8em;
+  box-sizing: border-box;
   border-top: none;
   color: #B620E0;
-  padding-top: 0;
+  line-height: 20px;
+  list-style: none;
+  padding-left: 0px;
 }
 
 .Southbound {
-  font-size: .6em;
-  display: block;
-  list-style: none;
+  font-size: .8em;
+  box-sizing: border-box;
   border-top: none;
   color: #59A608;
-  padding-top: 0;
+  list-style: none;
+  padding-left: 0px;
 }
 
 .Reroute {
-  font-size: .6em;
-  display: block;
-  list-style: none;
+  font-size: .8em;
+  box-sizing: border-box;
   border-top: none;
   color: #F2810D;
-  padding-top: 0;
+  line-height: 20px;
+  list-style: none;
+  padding-left: 0px;
 }
 
 .route-data:hover {
@@ -137,4 +139,20 @@ ul {
   background-repeat: no-repeat;
   height: 48px;
   width: 362px;
+}
+
+
+
+.leftE {
+  float: left;
+  width: 15%;
+  padding: 50px;
+}
+.centerE {
+  padding: 50px;
+}
+.rightEx {
+  float: right;
+  width: 20%;
+  padding: 50px;
 }
