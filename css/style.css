@@ -1,4 +1,4 @@
-*, *:before:, *:after {
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
@@ -29,14 +29,12 @@ body {
   margin: 0 auto;
   width: 360px;
   display: block;
-  box-sizing: border-box;
   background-color: #EFF2F4;
 }
 
 .route-data {
   height: 72px;
   width: 360px;
-  box-sizing: border-box;
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 16px;
@@ -56,15 +54,11 @@ body {
 }
 
 .destination {
-  /* width: 50%; */
-  box-sizing: border-box;
   line-height: 20px;
   margin-left: 70px;
-  /* float: left; */
 }
 
 .time {
-  /* width: 30%; */
   text-align: right;
   float: right;
   line-height: 20px;
@@ -74,9 +68,6 @@ body {
 
 .frequency {
   font-size: .8em;
-  /* width: 25%; */
-  /* float: right; */
-  box-sizing: border-box;
   color: #787878;
   list-style: none;
   padding: 0px;
@@ -102,7 +93,6 @@ body {
 
 .Eastbound {
   font-size: .8em;
-  box-sizing: border-box;
   border-top: none;
   color: #B620E0;
   line-height: 20px;
@@ -112,7 +102,6 @@ body {
 
 .Southbound {
   font-size: .8em;
-  box-sizing: border-box;
   border-top: none;
   color: #59A608;
   list-style: none;
@@ -121,7 +110,6 @@ body {
 
 .Reroute {
   font-size: .8em;
-  box-sizing: border-box;
   border-top: none;
   color: #F2810D;
   line-height: 20px;
@@ -139,20 +127,4 @@ body {
   background-repeat: no-repeat;
   height: 48px;
   width: 362px;
-}
-
-
-
-.leftE {
-  float: left;
-  width: 15%;
-  padding: 50px;
-}
-.centerE {
-  padding: 50px;
-}
-.rightEx {
-  float: right;
-  width: 20%;
-  padding: 50px;
 }
