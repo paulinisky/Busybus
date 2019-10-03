@@ -48,6 +48,20 @@ input {
   background-color: #EFF2F4;
 }
 
+.upcoming-bus {
+  height: 72px;
+  width: 360px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 1px solid #e0e0e0;
+  margin: 0;
+  list-style: none;
+  background-color: #6DD400;
+  color: #FFFFFF;
+}
+
 .route-data {
   height: 72px;
   width: 360px;
@@ -83,6 +97,13 @@ input {
   height: 50px;
 }
 
+.next-bus {
+  font-size: .8em;
+  color: #FFFFFF;
+  list-style: none;
+  padding: 0px;
+}
+
 .frequency {
   font-size: .8em;
   color: #787878;
@@ -102,7 +123,6 @@ input {
 .Northbound {
   font-size: .8em;
   border-top: none;
-  color: #1F72B1;
   line-height: 20px;
   list-style: none;
   padding-left: 0px;
@@ -111,7 +131,6 @@ input {
 .Eastbound {
   font-size: .8em;
   border-top: none;
-  color: #B620E0;
   line-height: 20px;
   list-style: none;
   padding-left: 0px;
@@ -120,7 +139,6 @@ input {
 .Southbound {
   font-size: .8em;
   border-top: none;
-  color: #59A608;
   list-style: none;
   padding-left: 0px;
 }
@@ -128,10 +146,13 @@ input {
 .Reroute {
   font-size: .8em;
   border-top: none;
-  color: #F2810D;
   line-height: 20px;
   list-style: none;
   padding-left: 0px;
+}
+
+.upcoming-bus:hover {
+  background-color: #6D7278;
 }
 
 .route-data:hover {
