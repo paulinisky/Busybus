@@ -58,7 +58,7 @@ input {
   border-top: 1px solid #e0e0e0;
   margin: 0;
   list-style: none;
-  background-color: #6DD400;
+  background-color: #185C91;
   color: #FFFFFF;
 }
 
@@ -152,7 +152,7 @@ input {
 }
 
 .upcoming-bus:hover {
-  background-color: #529B05;
+  background-color: #134971;
 }
 
 .route-data:hover {
