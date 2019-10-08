@@ -95,6 +95,7 @@ input {
   line-height: 20px;
   padding-top: 0px;
   height: 50px;
+  font-weight: 540;
 }
 
 .next-bus {
@@ -106,15 +107,16 @@ input {
 
 .frequency {
   font-size: .8em;
-  color: #787878;
+  color: #4F4F4F;
   list-style: none;
   padding: 0px;
+  font-weight: normal;
 }
 
 .service {
   font-size: .8em;
   border-top: none;
-  color: #E02020;
+  color: #A21616;
   line-height: 20px;
   list-style: none;
   padding-left: 0px;
